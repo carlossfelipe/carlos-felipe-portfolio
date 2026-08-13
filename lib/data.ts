@@ -1,43 +1,15 @@
 import { Project, TechItem, TimelineItem } from "@/types";
 
 export const PROJECTS: Project[] = [
-  {
-    title: "Sistema de Orçamentos",
-    description: "Plataforma para geração e gerenciamento de orçamentos em tempo real com relatórios em PDF.",
-    tags: ["Java", "Spring Boot", "React", "PostgreSQL"],
-    githubUrl: "https://github.com/carlosfelipe",
-    demoUrl: "https://demo.example.com",
-    image: "/projects/orcamentos.png"
-  },
-  {
-    title: "API de Agendamentos",
-    description: "Microsserviço de alta disponibilidade para reserva e controle de horários com notificações assíncronas.",
-    tags: ["Java", "Spring Boot", "Docker", "RabbitMQ"],
-    githubUrl: "https://github.com/carlosfelipe",
-    image: "/projects/agendamentos.png"
-  },
+  
   {
     title: "Site de Animes",
     description: "Portal responsivo para busca e catalogação de animes consumindo APIs REST públicas.",
     tags: ["Next.js", "TypeScript", "Tailwind CSS"],
-    githubUrl: "https://github.com/carlosfelipe",
-    demoUrl: "https://demo.example.com",
+    githubUrl: "https://github.com/carlossfelipe/web-project-cafe-animes",
+    demoUrl: "https://web-project-cafe-animes.vercel.app/",
     image: "/projects/animes.png"
   },
-  {
-    title: "Dashboard Administrativo",
-    description: "Painel de controle corporativo com gráficos interativos e gestão de permissões.",
-    tags: ["React", "TypeScript", "Tailwind CSS", "Recharts"],
-    githubUrl: "https://github.com/carlosfelipe",
-    image: "/projects/dashboard.png"
-  },
-  {
-    title: "Sistema de Login JWT",
-    description: "Módulo robusto de autenticação, autorização e refresh token baseado em Spring Security.",
-    tags: ["Java", "Spring Security", "JWT", "MySQL"],
-    githubUrl: "https://github.com/carlosfelipe",
-    image: "/projects/jwt.png"
-  }
 ];
 
 export const TECH_STACK: TechItem[] = [

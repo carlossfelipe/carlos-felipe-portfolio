@@ -7,8 +7,12 @@ export function GithubStatsSection() {
   const username = "carlossfelipe"; // Nome de usuário do GitHub
 
   // bg_color=00000000 garante fundo 100% transparente
-  const statsUrl = `https://github-readme-stats-sigma-five.vercel.app/api?username=${username}&show_icons=true&theme=dark&hide_border=true&bg_color=00000000&title_color=CF4CE1&icon_color=CF4CE1&text_color=999999&cache_seconds=1800`;
-  const langsUrl = `https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=${username}&layout=compact&theme=dark&hide_border=true&bg_color=00000000&title_color=CF4CE1&text_color=999999&cache_seconds=1800`;
+  // Estatísticas
+ // Cartão de Estatísticas do Usuário
+  const statsUrl = `https://github-readme-stats-denvercoder1.vercel.app/api?username=${username}&show_icons=true&theme=dark&hide_border=true&bg_color=00000000&title_color=CF4CE1&icon_color=CF4CE1&text_color=999999`;
+
+  // Linguagens mais usadas
+  const langsUrl = `https://github-readme-stats-denvercoder1.vercel.app/api/top-langs/?username=${username}&layout=compact&theme=dark&hide_border=true&bg_color=00000000&title_color=CF4CE1&text_color=999999`;
 
   return (
     <section className="py-24 relative">
