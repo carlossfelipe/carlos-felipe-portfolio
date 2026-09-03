@@ -10,6 +10,16 @@ export const PROJECTS: Project[] = [
     demoUrl: "https://web-project-cafe-animes.vercel.app/",
     image: "/projects/animes.png"
   },
+
+  {
+    title: "API de Transações",
+    description: "API REST para gerenciamento de contas e transações financeiras, com controle de saldo, validações e tratamento de exceções.",
+    tags: ["Java", "Spring Boot", "PostgreSQL", "JPA"],
+    githubUrl: "https://github.com/carlossfelipe/api-transacao",
+    demoUrl: "",
+    image: "/projects/api-transacao.png",
+  },
+
 ];
 
 export const TECH_STACK: TechItem[] = [
